@@ -11,3 +11,9 @@ The aim is to have fun and try a few different languages.
 Day       Time   Rank  Score       Time   Rank  Score
   1   08:24:53  60095      0   08:44:44  58366      0
 ```
+
+## Language Breakdown
+
+| Day | Language |
+| :-: | :------: |
+|  1  |   Rust   |
