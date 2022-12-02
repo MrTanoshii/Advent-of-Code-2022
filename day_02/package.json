@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "bt": "npm run build && npm run test",
+    "clean": "rmdir /s /q node_modules, build",
+    "test": "node build/main.js"
+  },
+  "scriptsComments": {
+    "clean-win": "rmdir /s /q node_modules, build",
+    "clean-linux": "rm -rf node_modules, build"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "typescript": "^4.9.3"
+  }
+}
