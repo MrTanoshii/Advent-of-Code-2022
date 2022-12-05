@@ -9,6 +9,7 @@ The aim is to have fun and try a few different languages.
 ```plaintext
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+  5   14:29:54  70071      0   14:53:09  68775      0
   4   07:05:03  52386      0   07:22:44  51592      0
   3   10:31:49  66911      0   11:37:21  64737      0
   2   04:22:14  44242      0   04:40:28  41599      0
@@ -23,3 +24,4 @@ Day       Time   Rank  Score       Time   Rank  Score
 |  2  | TypeScript |
 |  3  |     Go     |
 |  4  |     C      |
+|  5  |    Dart    |
