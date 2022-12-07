@@ -9,6 +9,7 @@ The aim is to have fun and try a few different languages.
 ```plaintext
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+  7   10:57:53  40471      0   11:16:47  39029      0
   6   07:59:36  60100      0   08:21:44  60101      0
   5   14:29:54  70071      0   14:53:09  68775      0
   4   07:05:03  52386      0   07:22:44  51592      0
@@ -19,11 +20,12 @@ Day       Time   Rank  Score       Time   Rank  Score
 
 ## Language Breakdown
 
-| Day |  Language  |
-| :-: | :--------: |
-|  1  |    Rust    |
-|  2  | TypeScript |
-|  3  |     Go     |
-|  4  |     C      |
-|  5  |    Dart    |
-|  6  | FreeBASIC  |
+| Day |                         Language                          |                  Compiler/Interpreter/Toolchain                   | Ranking               |
+| :-: | :-------------------------------------------------------: | :---------------------------------------------------------------: | --------------------- |
+|  1  |            [Rust](https://www.rust-lang.org/)             |              stable-x86_64-pc-windows-msvc `1.65.0`               | :fire: Great          |
+|  2  |       [TypeScript](https://www.typescriptlang.org/)       |                   node `v16.16.0`, npm `v9.1.3`                   | :tada: Good           |
+|  3  |                   [Go](https://go.dev/)                   |                go version go`1.19.3` windows/amd64                | :tada: Good           |
+|  4  | [C](https://learn.microsoft.com/en-us/cpp/?view=msvc-170) | Microsoft (R) C/C++ Optimizing Compiler Version `19.29.30147` x64 | :tada: Good           |
+|  5  |                 [Dart](https://dart.dev/)                 |              Dart SDK version: `2.18.5` (stable) x64              | :tada: Good           |
+|  6  |          [FreeBASIC](https://www.freebasic.net/)          |             FreeBASIC Compiler - Version `1.09.0` x64             | :white_check_mark: Ok |
+|  7  |              [Julia](https://julialang.org/)              |                     julia version `1.8.3` x64                     | :ambulance: Horrible  |
