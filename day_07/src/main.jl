@@ -25,8 +25,6 @@ mutable struct Dir
     function Dir(name::String, size::Int64, totalsize::Int64, parentdir::Union{Dir, Nothing}, subdirs::Vector{Dir}, files::Vector{File})
         new(name, size, totalsize, parentdir, subdirs, files)
     end
-
-
 end
 
 function updatedirsize!(dir::Dir, size::Int64)
