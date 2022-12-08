@@ -9,6 +9,7 @@ The aim is to have fun and try a few different languages.
 ```plaintext
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+  8   15:51:50  58874      0   17:12:56  54326      0
   7   10:57:53  40471      0   11:16:47  39029      0
   6   07:59:36  60100      0   08:21:44  60101      0
   5   14:29:54  70071      0   14:53:09  68775      0
@@ -29,3 +30,4 @@ Day       Time   Rank  Score       Time   Rank  Score
 |  5  |                 [Dart](https://dart.dev/)                 |              Dart SDK version: `2.18.5` (stable) x64              | :tada: Good           |
 |  6  |          [FreeBASIC](https://www.freebasic.net/)          |             FreeBASIC Compiler - Version `1.09.0` x64             | :white_check_mark: Ok |
 |  7  |              [Julia](https://julialang.org/)              |                     julia version `1.8.3` x64                     | :ambulance: Horrible  |
+|  8  |               [Perl](https://www.perl.org/)               |                `5.32.1` / MSWin32-x64-multi-thread                | :see_no_evil: Bad     |
