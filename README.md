@@ -23,7 +23,7 @@ Day       Time   Rank  Score       Time   Rank  Score
 ## Language Breakdown
 
 | Day |                         Language                          |                  Compiler/Interpreter/Toolchain                   | Ranking               |
-| :-: | :-------------------------------------------------------: | :---------------------------------------------------------------: | --------------------- |
+| :-: | :-------------------------------------------------------: | :---------------------------------------------------------------: | :-------------------- |
 |  1  |            [Rust](https://www.rust-lang.org/)             |              stable-x86_64-pc-windows-msvc `1.65.0`               | :fire: Great          |
 |  2  |       [TypeScript](https://www.typescriptlang.org/)       |                   node `v16.16.0`, npm `v9.1.3`                   | :tada: Good           |
 |  3  |                   [Go](https://go.dev/)                   |                go version go`1.19.3` windows/amd64                | :tada: Good           |
@@ -33,3 +33,19 @@ Day       Time   Rank  Score       Time   Rank  Score
 |  7  |              [Julia](https://julialang.org/)              |                     julia version `1.8.3` x64                     | :ambulance: Horrible  |
 |  8  |               [Perl](https://www.perl.org/)               |                `5.32.1` / MSWin32-x64-multi-thread                | :see_no_evil: Bad     |
 |  9  |                 [Java](https://dev.java/)                 |                        javac `19.0.1` x64                         | :tada: Good           |
+| 10  |                                                           |                                                                   |                       |
+| 11  |                                                           |                                                                   |                       |
+| 12  |                                                           |                                                                   |                       |
+| 13  |                                                           |                                                                   |                       |
+| 14  |                                                           |                                                                   |                       |
+| 15  |                                                           |                                                                   |                       |
+| 16  |                                                           |                                                                   |                       |
+| 17  |                                                           |                                                                   |                       |
+| 18  |                                                           |                                                                   |                       |
+| 19  |                                                           |                                                                   |                       |
+| 20  |                                                           |                                                                   |                       |
+| 21  |                                                           |                                                                   |                       |
+| 22  |                                                           |                                                                   |                       |
+| 23  |                                                           |                                                                   |                       |
+| 24  |                                                           |                                                                   |                       |
+| 25  |                                                           |                                                                   |                       |
