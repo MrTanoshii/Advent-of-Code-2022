@@ -102,7 +102,7 @@ Directories `e` and `a` are both too small; deleting them would not free up enou
 
 Find the smallest directory that, if deleted, would free up enough space on the filesystem to run the update. **What is the total size of that directory?**
 
-## How to run solution
+## How to run the solution
 
 ```bash
 julia ./src/main.jl
