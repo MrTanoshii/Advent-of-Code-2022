@@ -98,7 +98,9 @@ void updateCRT(int cycleCount, int registerValue, string* crt) {
 	string CRT_DARK = " ";
 	string* selectedCRTString;
 
-	if (registerValue - 1 <= crt.length % 40 && registerValue + 1 >= crt.length % 40) {
+	if ((registerValue - 1 <= crt.length % 40 && registerValue + 1 >= crt.length % 40) || 
+		(crt.length >= 40 && registerValue - 1 <= 1 && registerValue + 1 >= -1 && (crt.length - 40) % 40 == 0)
+	) {
 		selectedCRTString = &CRT_LIT;
 	} else {
 		selectedCRTString = &CRT_DARK;
