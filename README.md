@@ -9,6 +9,7 @@ The aim is to have fun and try a few different languages.
 ```plaintext
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 10   19:20:14  50217      0   20:02:08  46480      0
   9   10:03:12  36849      0   10:13:39  27928      0
   8   15:51:50  58874      0   17:12:56  54326      0
   7   10:57:53  40471      0   11:16:47  39029      0
@@ -33,7 +34,7 @@ Day       Time   Rank  Score       Time   Rank  Score
 |  7  |              [Julia](https://julialang.org/)              |                     julia version `1.8.3` x64                     | :ambulance: Horrible  |
 |  8  |               [Perl](https://www.perl.org/)               |                `5.32.1` / MSWin32-x64-multi-thread                | :see_no_evil: Bad     |
 |  9  |                 [Java](https://dev.java/)                 |                        javac `19.0.1` x64                         | :tada: Good           |
-| 10  |                                                           |                                                                   |                       |
+| 10  |                  [D](https://dlang.org/)                  |                 DMD64 D Compiler `v2.101.0`-dirty                 | :fire: Great          |
 | 11  |                                                           |                                                                   |                       |
 | 12  |                                                           |                                                                   |                       |
 | 13  |                                                           |                                                                   |                       |
@@ -49,3 +50,7 @@ Day       Time   Rank  Score       Time   Rank  Score
 | 23  |                                                           |                                                                   |                       |
 | 24  |                                                           |                                                                   |                       |
 | 25  |                                                           |                                                                   |                       |
+
+### Tried and dropped
+
+- Day 10 - [Zig](https://ziglang.org/) - `v0.10.0` | Lack of documentation
