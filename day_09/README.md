@@ -707,6 +707,6 @@ Simulate your complete series of motions on a larger rope with ten knots. **How 
 cd ./src/
 # Build
 javac -sourcepath . .\Main.java
-# Run
+# Run | Usage: java ./Main.java <input_file>
 java ./Main.java ../tests/input_2.txt
 ```
