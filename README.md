@@ -9,6 +9,7 @@ The aim is to have fun and try a few different languages.
 ```plaintext
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 13   20:07:36  30229      0   20:32:51  29195      0
  12   13:29:56  25615      0   16:51:09  29170      0
  11   13:03:34  36586      0   13:52:25  29313      0
  10   19:20:14  50217      0   20:02:08  46480      0
@@ -39,7 +40,7 @@ Day       Time   Rank  Score       Time   Rank  Score
 | 10  |                  [D](https://dlang.org/)                  |                 DMD64 D Compiler `v2.101.0`-dirty                  | :fire: Great          |                                       |
 | 11  |            [Ruby](https://www.ruby-lang.org/)             | ruby `3.1.3p185` (2022-11-24 revision 1a6b16756e) [x64-mingw-ucrt] | :tada: Good           |                                       |
 | 12  |              [R](https://www.r-project.org/)              |                              `v4.2.2`                              | :white_check_mark: Ok | Slow. Use `[y,x]` instead of `[x,y]`  |
-| 13  |                                                           |                                                                    |                       |                                       |
+| 13  |             [Python](https://www.python.org/)             |                             `v3.10.8`                              | :fire: Great          |                                       |
 | 14  |                                                           |                                                                    |                       |                                       |
 | 15  |                                                           |                                                                    |                       |                                       |
 | 16  |                                                           |                                                                    |                       |                                       |
