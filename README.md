@@ -9,6 +9,7 @@ The aim is to have fun and try a few different languages.
 ```plaintext
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 14   18:28:31  28815      0   18:38:56  27643      0
  13   20:07:36  30229      0   20:32:51  29195      0
  12   13:29:56  25615      0   16:51:09  29170      0
  11   13:03:34  36586      0   13:52:25  29313      0
@@ -41,7 +42,7 @@ Day       Time   Rank  Score       Time   Rank  Score
 | 11  |            [Ruby](https://www.ruby-lang.org/)             | ruby `3.1.3p185` (2022-11-24 revision 1a6b16756e) [x64-mingw-ucrt] | :tada: Good           |                                       |
 | 12  |              [R](https://www.r-project.org/)              |                              `v4.2.2`                              | :white_check_mark: Ok | Slow. Use `[y,x]` instead of `[x,y]`  |
 | 13  |             [Python](https://www.python.org/)             |                             `v3.10.8`                              | :fire: Great          |                                       |
-| 14  |                                                           |                                                                    |                       |                                       |
+| 14  |            [Rust](https://www.rust-lang.org/)             |               stable-x86_64-pc-windows-msvc `1.65.0`               | :fire: Great          |                                       |
 | 15  |                                                           |                                                                    |                       |                                       |
 | 16  |                                                           |                                                                    |                       |                                       |
 | 17  |                                                           |                                                                    |                       |                                       |
@@ -58,3 +59,4 @@ Day       Time   Rank  Score       Time   Rank  Score
 
 - Day 10 - [Zig](https://ziglang.org/) - `v0.10.0` | Lack of documentation
 - Day 11 - [MS-DOS](https://github.com/microsoft/ms-dos) | Too inappropriate for the job
+- Day 14 - [Clojure](https://clojure.org/) - `v1.11.1.1208` | Lots of `()`, Language is very foreign
