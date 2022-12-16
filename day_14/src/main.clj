@@ -18,5 +18,5 @@
 (println "Hello")
 ;; (def coords (readInputFile))
 ;; (println coords)
-(doseq [coords (readInputFile "./tests/input.txt")]
+(doseq [coords (readInputFile "./data/input.dat")]
   (println coords))

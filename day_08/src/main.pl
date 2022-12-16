@@ -2,7 +2,7 @@ use File::Basename;
 use lib dirname (__FILE__);
 use Tree;
 
-open(my $in, "<", "./tests/input_2.txt") or die "Error reading file: $!";
+open(my $in, "<", "./data/input.dat") or die "Error reading file: $!";
 
 my @tree_list;
 

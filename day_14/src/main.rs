@@ -21,7 +21,7 @@ fn main() {
         println!("Usage:");
         println!("  cargo run {{p1|p2}} <input_file>");
         println!("Example:");
-        println!("  cargo run p1 ./tests/input_2.txt");
+        println!("  cargo run p1 ./data/input.dat");
         return;
     }
 
@@ -198,8 +198,8 @@ fn main() {
 
     // Write output string to file
     if args[1] == "p1" {
-        fs::write("cave_part1.txt", output_str).unwrap();
+        fs::write("cave_part1.out", output_str).unwrap();
     } else {
-        fs::write("cave_part2.txt", output_str).unwrap();
+        fs::write("cave_part2.out", output_str).unwrap();
     }
 }

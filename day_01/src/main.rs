@@ -5,9 +5,9 @@ fn main() {
 
     if args.len() != 2 {
         // Ensure that a single argument is passed
-        println!("Please input the file path as 2nd argument.");
-        println!("Format: cargo run --release path/to/file");
-        println!("Example: cargo run --release ./tests/input.txt");
+        println!("Advent of Code 2022 - Day 1");
+        println!("Usage: cargo run <input_file>");
+        println!("Example: cargo run ./data/input.dat");
     } else {
         // Try reading the file
         let input_file_result = File::open(args[1].as_str());

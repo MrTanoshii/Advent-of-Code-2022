@@ -100,7 +100,7 @@ const findRequiredHand = (
 import * as fs from "fs";
 
 // Read file
-const inputFilename: string = "./tests/input.txt";
+const inputFilename: string = "./data/input.dat";
 let fileContent = fs.readFileSync(inputFilename, "utf8");
 let lines = fileContent.trim().split("\n");
 

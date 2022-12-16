@@ -6,7 +6,7 @@ Correction: the distress signal leads you behind a giant waterfall! There seems 
 
 As you begin to make your way deeper underground, you feel the ground rumble for a moment. Sand begins pouring into the cave! If you don't quickly figure out where the sand is going, you could quickly become trapped!
 
-Fortunately, your [familiarity](https://adventofcode.com/2018/day/17) with analyzing the path of falling material will come in handy here. You scan a two-dimensional vertical slice of the cave above you (your puzzle input) and discover that it is mostly **air** with structures made of **rock**.
+Fortunately, your [familiarity](https://adventofcode.com/2018/day/17) with analyzing the path of falling material will come in handy here. You scan a two-dimensional vertical slice of the cave above you (your puzzle input) and discover that it is mostly **air** with structures made of **rock.**
 
 Your scan traces the path of each solid rock structure and reports the `x,y` coordinates that form the shape of the path, where `x` represents distance to the right and `y` represents distance down. Each path appears as a single line of text in your scan. After the first point of each path, each point indicates the end of a straight horizontal or vertical line to be drawn from the previous point. For example:
 
@@ -37,7 +37,7 @@ Drawing rock as `#`, air as `.`, and the source of the sand as `+`, this becomes
 9 #########.
 ```
 
-Sand is produced **one unit at a time**, and the next unit of sand is not produced until the previous unit of sand **comes to rest**. A unit of sand is large enough to fill one tile of air in your scan.
+Sand is produced **one unit at a time,** and the next unit of sand is not produced until the previous unit of sand **comes to rest.** A unit of sand is large enough to fill one tile of air in your scan.
 
 A unit of sand always falls **down one step** if possible. If the tile immediately below is blocked (by rock or sand), the unit of sand attempts to instead move diagonally **one step down and to the left.** If that tile is blocked, the unit of sand attempts to instead move diagonally **one step down and to the right.** Sand keeps moving as long as it is able to do so, at each step trying to move down, then down-left, then down-right. If all three possible destinations are blocked, the unit of sand **comes to rest** and no longer moves, at which point the next unit of sand is created back at the source.
 
@@ -134,7 +134,10 @@ Once all **`24`** units of sand shown above have come to rest, all further sand 
 ~..........
 ```
 
-Using your scan, simulate the falling sand. **How many units of sand come to rest before sand starts flowing into the abyss below?**
+<details>
+<summary>Using your scan, simulate the falling sand. <b>How many units of sand come to rest before sand starts flowing into the abyss below?</b></summary>
+Your puzzle answer was <code>715</code>.
+</details>
 
 ## --- Part Two ---
 
@@ -176,14 +179,17 @@ To find somewhere safe to stand, you'll need to simulate falling sand until a un
 #########################
 ```
 
-Using your scan, simulate the falling sand until the source of the sand becomes blocked. **How many units of sand come to rest?**
+<details>
+<summary>Using your scan, simulate the falling sand until the source of the sand becomes blocked. <b>How many units of sand come to rest?</b></summary>
+Your puzzle answer was <code>25248</code>.
+</details>
 
-## How to run the solution
+## Running the solution
 
 ```bash
 # Usage: cargo run {p1|p2} <input_file>
 # Run part 1
-cargo run p1 ./tests/input_2.txt
+cargo run p1 ./data/input.dat
 # Run part 2
-cargo run p2 ./tests/input_2.txt
+cargo run p2 ./data/input.dat
 ```

@@ -4,7 +4,7 @@
 
 #ifndef DEFINES
 #define DEFINES
-#define INPUT_FILE "./tests/input.txt"
+#define INPUT_FILE "./data/input.dat"
 #define ARRAY_SIZE 4096
 #define TRUE 1
 #define FALSE 0

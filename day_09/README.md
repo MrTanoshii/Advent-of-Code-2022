@@ -8,7 +8,7 @@ You step carefully; as you do, the ropes stretch and twist. You decide to distra
 
 Consider a rope with a knot at each end; these knots mark the **head** and the **tail** of the rope. If the head moves far enough away from the tail, the tail is pulled toward the head.
 
-Due to nebulous reasoning involving **Planck lengths**, you should be able to model the positions of the knots on a two-dimensional grid. Then, by following a hypothetical **series of motions** (your puzzle input) for the head, you can determine how the tail will move.
+Due to nebulous reasoning involving [Planck lengths](https://en.wikipedia.org/wiki/Planck_units#Planck_length), you should be able to model the positions of the knots on a two-dimensional grid. Then, by following a hypothetical **series of motions** (your puzzle input) for the head, you can determine how the tail will move.
 
 Due to the aforementioned Planck lengths, the rope must be quite short; in fact, the head (`H`) and tail (`T`) must **always be touching** (diagonally adjacent and even overlapping both count as touching):
 
@@ -256,7 +256,10 @@ s###..
 
 So, there are **`13`** positions the tail visited at least once.
 
-Simulate your complete hypothetical series of motions. **How many positions does the tail of the rope visit at least once?**
+<details>
+<summary>Simulate your complete hypothetical series of motions. <b>How many positions does the tail of the rope visit at least once?</b></summary>
+Your puzzle answer was <code>6563</code>.
+</details>
 
 ## --- Part Two ---
 
@@ -699,14 +702,17 @@ Now, the tail (`9`) visits **`36`** positions (including `s`) at least once:
 .........########.........
 ```
 
-Simulate your complete series of motions on a larger rope with ten knots. **How many positions does the tail of the rope visit at least once?**
+<details>
+<summary>Simulate your complete series of motions on a larger rope with ten knots. <b>How many positions does the tail of the rope visit at least once?</b></summary>
+Your puzzle answer was <code>2653</code>.
+</details>
 
-## How to run the solution
+## Running the solution
 
 ```bash
 cd ./src/
 # Build
 javac -sourcepath . .\Main.java
 # Run | Usage: java ./Main.java <input_file>
-java ./Main.java ../tests/input_2.txt
+java ./Main.java ../data/input.dat
 ```

@@ -55,7 +55,7 @@ Dim As Long fileNum = FreeFile
 Dim As String markerArray(0 To 3)
 Dim As String messageArray(0 To 13)
 Dim As String inputStr
-Dim As String inputFilename = "./tests/input.txt"
+Dim As String inputFilename = "./data/input.dat"
 
 Dim As Integer i = 0
 

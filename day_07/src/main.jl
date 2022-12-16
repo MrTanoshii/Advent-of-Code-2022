@@ -78,7 +78,7 @@ rootdir = Dir("/", 0, 0, nothing, Dir[], File[])
 currentdir = rootdir
 
 # Read file and populate array
-open("./tests/input2.txt") do file
+open("./data/input.dat") do file
     linenum = 0
     for line in eachline(file)
         linenum += 1

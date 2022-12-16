@@ -65,7 +65,7 @@ void main() async {
   String rawInput;
   try {
     // Read the input file
-    final file = File('./tests/input.txt');
+    final file = File('./data/input.dat');
     rawInput = await file.readAsString();
   } catch (e) {
     // If encountering an error, return

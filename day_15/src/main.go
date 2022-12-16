@@ -28,7 +28,7 @@ func main() {
 		fmt.Println("Usage:")
 		fmt.Println("  go run ", os.Args[0], " <input_file> <map_y_illegal_beacon_check>")
 		fmt.Println("Example:")
-		fmt.Println("  go run ", os.Args[0], " ./tests/input_2.txt 2000000")
+		fmt.Println("  go run ", os.Args[0], " ./data/input.dat 2000000")
 		return
 	}
 
