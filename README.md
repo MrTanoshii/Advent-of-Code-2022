@@ -9,6 +9,7 @@ The aim is to have fun and try a few different languages.
 ```plaintext
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 16       >24h  18692      0          -      -      -
  15   20:58:07  27208      0   22:38:16  21772      0
  14   18:28:31  28815      0   18:38:56  27643      0
  13   20:07:36  30229      0   20:32:51  29195      0
@@ -45,7 +46,7 @@ Day       Time   Rank  Score       Time   Rank  Score
 | 13  |             [Python](https://www.python.org/)             |                             `v3.10.8`                              | :fire: Great          |                                       |
 | 14  |            [Rust](https://www.rust-lang.org/)             |               stable-x86_64-pc-windows-msvc `1.65.0`               | :fire: Great          |                                       |
 | 15  |                   [Go](https://go.dev/)                   |                go version go`1.19.4` windows/amd64                 | :fire: Great          |                                       |
-| 16  |                                                           |                                                                    |                       |                                       |
+| 16  |                 [Dart](https://dart.dev/)                 |              Dart SDK version: `2.18.5` (stable) x64               | :tada: Great          | Really struggled with part 1          |
 | 17  |                                                           |                                                                    |                       |                                       |
 | 18  |                                                           |                                                                    |                       |                                       |
 | 19  |                                                           |                                                                    |                       |                                       |
