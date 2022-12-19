@@ -255,3 +255,10 @@ With the elephant helping, after 26 minutes, the best you could do would release
 <summary><b>With you and an elephant working together for 26 minutes, what is the most pressure you could release?</b></summary>
 <code></code>
 </details>
+
+## Running the solution
+
+```bash
+# Usage: dart ./src/main.dart <input_file>
+dart ./src/main.dart ./data/input.dat
+```
