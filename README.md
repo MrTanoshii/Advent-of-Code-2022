@@ -10,6 +10,7 @@ The aim is to have fun and try a few different languages.
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
  18   18:53:04  17595      0   19:40:08  13845      0
+ 17       >24h  17329      0       >24h  16620      0
  16       >24h  18692      0          -      -      -
  15   20:58:07  27208      0   22:38:16  21772      0
  14   18:28:31  28815      0   18:38:56  27643      0
@@ -30,33 +31,33 @@ Day       Time   Rank  Score       Time   Rank  Score
 
 ## Language Breakdown
 
-| Day |                         Language                          |                   Compiler/Interpreter/Toolchain                   | Ranking               | Comment                               |
-| :-: | :-------------------------------------------------------: | :----------------------------------------------------------------: | :-------------------- | ------------------------------------- |
-|  1  |            [Rust](https://www.rust-lang.org/)             |               stable-x86_64-pc-windows-msvc `1.65.0`               | :fire: Great          |                                       |
-|  2  |       [TypeScript](https://www.typescriptlang.org/)       |                   node `v16.16.0`, npm `v9.1.3`                    | :tada: Good           |                                       |
-|  3  |                   [Go](https://go.dev/)                   |                go version go`1.19.3` windows/amd64                 | :tada: Good           |                                       |
-|  4  | [C](https://learn.microsoft.com/en-us/cpp/?view=msvc-170) | Microsoft (R) C/C++ Optimizing Compiler Version `19.29.30147` x64  | :tada: Good           |                                       |
-|  5  |                 [Dart](https://dart.dev/)                 |              Dart SDK version: `2.18.5` (stable) x64               | :tada: Good           |                                       |
-|  6  |          [FreeBASIC](https://www.freebasic.net/)          |             FreeBASIC Compiler - Version `1.09.0` x64              | :white_check_mark: Ok |                                       |
-|  7  |              [Julia](https://julialang.org/)              |                     julia version `1.8.3` x64                      | :ambulance: Horrible  | No proper OO. Use "multiple dispatch" |
-|  8  |               [Perl](https://www.perl.org/)               |                `5.32.1` / MSWin32-x64-multi-thread                 | :see_no_evil: Bad     | Slow                                  |
-|  9  |                 [Java](https://dev.java/)                 |                         javac `19.0.1` x64                         | :tada: Good           | Too many LoC for simple func          |
-| 10  |                  [D](https://dlang.org/)                  |                 DMD64 D Compiler `v2.101.0`-dirty                  | :fire: Great          |                                       |
-| 11  |            [Ruby](https://www.ruby-lang.org/)             | ruby `3.1.3p185` (2022-11-24 revision 1a6b16756e) [x64-mingw-ucrt] | :tada: Good           |                                       |
-| 12  |              [R](https://www.r-project.org/)              |                              `v4.2.2`                              | :white_check_mark: Ok | Slow. Use `[y,x]` instead of `[x,y]`  |
-| 13  |             [Python](https://www.python.org/)             |                             `v3.10.8`                              | :fire: Great          |                                       |
-| 14  |            [Rust](https://www.rust-lang.org/)             |               stable-x86_64-pc-windows-msvc `1.65.0`               | :fire: Great          |                                       |
-| 15  |                   [Go](https://go.dev/)                   |                go version go`1.19.4` windows/amd64                 | :fire: Great          |                                       |
-| 16  |                 [Dart](https://dart.dev/)                 |              Dart SDK version: `2.18.5` (stable) x64               | :tada: Great          | Really struggled with part 1          |
-| 17  |                                                           |                                                                    |                       |                                       |
-| 18  |             [Python](https://www.python.org/)             |                             `v3.10.8`                              | :fire: Great          |                                       |
-| 19  |                                                           |                                                                    |                       |                                       |
-| 20  |                                                           |                                                                    |                       |                                       |
-| 21  |                                                           |                                                                    |                       |                                       |
-| 22  |                                                           |                                                                    |                       |                                       |
-| 23  |                                                           |                                                                    |                       |                                       |
-| 24  |                                                           |                                                                    |                       |                                       |
-| 25  |                                                           |                                                                    |                       |                                       |
+| Day |                         Language                          |                            Compiler/Interpreter/Toolchain                            | Ranking               | Comment                               |
+| :-: | :-------------------------------------------------------: | :----------------------------------------------------------------------------------: | :-------------------- | ------------------------------------- |
+|  1  |            [Rust](https://www.rust-lang.org/)             |                        stable-x86_64-pc-windows-msvc `1.65.0`                        | :fire: Great          |                                       |
+|  2  |       [TypeScript](https://www.typescriptlang.org/)       |                            node `v16.16.0`, npm `v9.1.3`                             | :tada: Good           |                                       |
+|  3  |                   [Go](https://go.dev/)                   |                         go version go`1.19.3` windows/amd64                          | :tada: Good           |                                       |
+|  4  | [C](https://learn.microsoft.com/en-us/cpp/?view=msvc-170) |          Microsoft (R) C/C++ Optimizing Compiler Version `19.29.30147` x64           | :tada: Good           |                                       |
+|  5  |                 [Dart](https://dart.dev/)                 |                       Dart SDK version: `2.18.5` (stable) x64                        | :tada: Good           |                                       |
+|  6  |          [FreeBASIC](https://www.freebasic.net/)          |                      FreeBASIC Compiler - Version `1.09.0` x64                       | :white_check_mark: Ok |                                       |
+|  7  |              [Julia](https://julialang.org/)              |                              julia version `1.8.3` x64                               | :ambulance: Horrible  | No proper OO. Use "multiple dispatch" |
+|  8  |               [Perl](https://www.perl.org/)               |                         `5.32.1` / MSWin32-x64-multi-thread                          | :see_no_evil: Bad     | Slow                                  |
+|  9  |                 [Java](https://dev.java/)                 |                                  javac `19.0.1` x64                                  | :tada: Good           | Too many LoC for simple func          |
+| 10  |                  [D](https://dlang.org/)                  |                          DMD64 D Compiler `v2.101.0`-dirty                           | :fire: Great          |                                       |
+| 11  |            [Ruby](https://www.ruby-lang.org/)             |          ruby `3.1.3p185` (2022-11-24 revision 1a6b16756e) [x64-mingw-ucrt]          | :tada: Good           |                                       |
+| 12  |              [R](https://www.r-project.org/)              |                                       `v4.2.2`                                       | :white_check_mark: Ok | Slow. Use `[y,x]` instead of `[x,y]`  |
+| 13  |             [Python](https://www.python.org/)             |                                      `v3.10.8`                                       | :fire: Great          |                                       |
+| 14  |            [Rust](https://www.rust-lang.org/)             |                        stable-x86_64-pc-windows-msvc `1.65.0`                        | :fire: Great          |                                       |
+| 15  |                   [Go](https://go.dev/)                   |                         go version go`1.19.4` windows/amd64                          | :fire: Great          |                                       |
+| 16  |                 [Dart](https://dart.dev/)                 |     Dart SDK version: `2.18.5` (stable) x64, `v8 10.9.194.5`, typescript `4.8.3`     | :tada: Great          | Struggled with part 1                 |
+| 17  |                [Deno](https://deno.land/)                 | deno `1.28.3` (release, x86_64-pc-windows-msvc), `v8 10.9.194.5`, typescript `4.8.3` | :tada: Great          | Struggled with part 2                 |
+| 18  |             [Python](https://www.python.org/)             |                                      `v3.10.8`                                       | :fire: Great          |                                       |
+| 19  |                                                           |                                                                                      |                       |                                       |
+| 20  |                                                           |                                                                                      |                       |                                       |
+| 21  |                                                           |                                                                                      |                       |                                       |
+| 22  |                                                           |                                                                                      |                       |                                       |
+| 23  |                                                           |                                                                                      |                       |                                       |
+| 24  |                                                           |                                                                                      |                       |                                       |
+| 25  |                                                           |                                                                                      |                       |                                       |
 
 ### Tried and dropped
 
